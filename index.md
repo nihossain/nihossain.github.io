@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Made By Bengal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Made By Bengal</h1>
+    <p>Nurturing Bangladeshi Talent</p>
+  </header>
 
-You can use the [editor on GitHub](https://github.com/nihossain/nihossain.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+  <section id="hero">
+    <img src="hero-image.jpg" alt="Image of Bangladeshi talent">
+    <div class="hero-text">
+      <h2>Empowering the next generation of Bangladeshi innovators.</h2>
+      <a href="#our-initiatives" class="button">Discover Our Initiatives</a>
+    </div>
+  </section>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+  <section id="about-us">
+    <h2>About Us</h2>
+    <p>...</p>
+    </section>
 
-### Markdown
+  <section id="our-initiatives">
+    <h2>Our Initiatives</h2>
+    <div class="initiative">
+      <h3>Scholarships</h3>
+      <p>...</p>
+    </div>
+    </section>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <section id="impact">
+    <h2>Our Impact</h2>
+    <p>...</p>
+    </section>
 
-```markdown
-Syntax highlighted code block
+  <section id="get-involved">
+    <h2>Get Involved</h2>
+    <p>...</p>
+    <a href="mailto:info@madebybengal.com">Contact Us</a>
+  </section>
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/nihossain/nihossain.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+  <footer>
+    <p>&copy; 2024 Made By Bengal</p>
+  </footer>
+</body>
+</html>
