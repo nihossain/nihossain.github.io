@@ -462,7 +462,8 @@ a {
     padding: 28px 24px;
   }
   .sidebar-top { flex: 1 1 240px; }
-  .sidebar-nav { flex-direction: row; flex-wrap: wrap; margin: 0; }
+  .sidebar-nav { flex-direction: row; flex-wrap: wrap; margin: 0; gap: 4px 8px; }
+  .sidebar-nav a { margin: 0; }
   .pill-button { margin-top: 0; }
   .main { padding: 40px 24px 0; }
   .hero-grid { grid-template-columns: 1fr; }
