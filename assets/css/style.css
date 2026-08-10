@@ -426,6 +426,26 @@ a {
 .footer-text a { color: var(--muted); text-decoration: none; }
 .footer-text a:hover { color: var(--text); text-decoration: underline; }
 
+.social-icons {
+  display: flex;
+  gap: 8px;
+}
+
+.social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--hairline);
+  border-radius: 8px;
+  color: var(--muted);
+}
+
+.social-icon svg { width: 16px; height: 16px; }
+
+.social-icon:hover { color: var(--text); border-color: var(--text); }
+
 /* ---------------- Responsive ---------------- */
 
 @media (max-width: 860px) {
