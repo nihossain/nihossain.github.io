@@ -257,25 +257,6 @@ a {
   border-radius: 10px;
 }
 
-.hero-grid {
-  display: grid;
-  grid-template-columns: 1fr 220px;
-  gap: 40px;
-  align-items: start;
-}
-
-.hero-grid h1 { font-size: 30px; }
-
-.hero-side {
-  font-size: 13px;
-  color: var(--muted);
-  line-height: 1.7;
-}
-
-.hero-side .side-label { margin: 0 0 8px; }
-.hero-side a { display: block; color: var(--muted); }
-.hero-side a:hover { color: var(--text); }
-
 .divider {
   border: none;
   border-top: 1px solid var(--hairline);
@@ -466,7 +447,6 @@ a {
   .sidebar-nav a { margin: 0; }
   .pill-button { margin-top: 0; }
   .main { padding: 40px 24px 0; }
-  .hero-grid { grid-template-columns: 1fr; }
   .pillars { grid-template-columns: 1fr; gap: 24px; }
   .timeline-item { grid-template-columns: 1fr; gap: 4px; }
   .footer-row { grid-template-columns: 1fr; gap: 20px; }
