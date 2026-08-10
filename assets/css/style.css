@@ -283,7 +283,8 @@ a {
 
 .cta-row {
   display: flex;
-  gap: 20px;
+  flex-wrap: wrap;
+  gap: 12px 20px;
   margin: 8px 0 8px;
 }
 
