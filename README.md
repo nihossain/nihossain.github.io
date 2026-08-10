@@ -97,3 +97,9 @@ bundle exec jekyll serve
 ├── favicon.ico / *.png    # NIH monogram favicon set
 └── apple-touch-icon.png   # iOS home-screen icon
 ```
+
+## Download this theme
+
+**[⬇ Download nih-theme.zip](https://raw.githubusercontent.com/nihossain/nihossain.github.io/main/nih-theme.zip)**
+
+A self-contained copy of everything in this repo, plus an `INSTRUCTIONS.md` written for **Claude Code**: unzip it, point Claude Code at the folder, and it walks through creating your own `<username>.github.io` repo, personalizing every page, regenerating the favicon, and (optionally) wiring up a custom domain — the same process used to build and deploy this site.
