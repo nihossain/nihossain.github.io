@@ -1,1 +1,22 @@
-theme: jekyll-theme-minimal
+title: Naser Hossain
+description: >-
+  Naser Hossain — mechanical engineering leader, industrial design enthusiast,
+  and practical technologist based in California.
+author: Naser Hossain
+email: naser.imran@gmail.com
+url: "https://nihossain.com"
+baseurl: ""
+
+markdown: kramdown
+kramdown:
+  input: GFM
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
+exclude:
+  - README.md
+  - download-images.sh
