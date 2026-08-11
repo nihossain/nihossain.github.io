@@ -228,10 +228,9 @@ a {
   max-height: 560px;
   border-radius: 10px;
   overflow: hidden;
-  background: var(--hairline);
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   margin-bottom: 10px;
 }
 
@@ -240,6 +239,7 @@ a {
   height: auto;
   max-height: 560px;
   object-fit: contain;
+  object-position: left center;
   display: block;
 }
 
@@ -249,8 +249,8 @@ a {
   margin: 0 0 28px;
 }
 
-.img-credit a { color: var(--muted-2); text-decoration-color: var(--hairline); }
-.img-credit a:hover { color: var(--text); }
+.img-credit a { color: #faadac; text-decoration-color: rgba(250, 173, 172, 0.45); }
+.img-credit a:hover { color: #ffc9c7; }
 
 /* Minimal dashed placeholder used everywhere an image used to sit */
 
