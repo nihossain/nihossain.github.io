@@ -99,6 +99,15 @@ a {
   margin: 14px 0 20px;
 }
 
+.sidebar-photo {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  display: block;
+}
+
 .sidebar-tagline {
   font-size: 14px;
   color: var(--muted);
@@ -321,6 +330,32 @@ a {
   padding-bottom: 2px;
 }
 
+/* Instagram feed embed (Visuals) */
+
+.elfsight-app-5c272b89-f8af-49b1-acc0-ef7e523be8d0 {
+  margin: 8px 0 28px;
+}
+
+/* Video embed (Visuals) */
+
+.video-embed {
+  position: relative;
+  width: 100%;
+  padding-top: 56.25%;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 12px;
+  background: var(--hairline);
+}
+
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
 /* Entry list (Work) */
 
 .entry {
@@ -381,6 +416,20 @@ a {
 
 .timeline-body h2 { margin-top: 0; font-size: 17px; }
 .timeline-body .org { color: var(--muted); margin: 0 0 10px; font-style: normal; font-size: 14px; }
+.timeline-body .org a { text-decoration-color: var(--hairline); }
+
+.company-logo {
+  width: 70px;
+  height: 70px;
+  margin-top: 12px;
+  background-color: var(--text);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: contain;
+  mask-size: contain;
+}
 
 .skill-tags {
   display: flex;
@@ -486,7 +535,7 @@ a {
     gap: 24px;
     padding: 28px 24px;
   }
-  .sidebar-top { flex: 1 1 240px; }
+  .sidebar-top { flex: 1 1 240px; min-width: 0; }
   .sidebar-nav { flex-direction: row; flex-wrap: wrap; margin: 0; gap: 4px 8px; }
   .sidebar-nav a { margin: 0; }
   .pill-button { margin-top: 0; }
